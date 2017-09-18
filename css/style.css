@@ -1,0 +1,7 @@
+/**
+* The library
+**
+* @author    Diego Chi
+* @version   v1.0
+**/
+body{color:#333;font-family:"Libre Baskerville",sans-serif;font-size:16px;padding-top:3rem}.bg-header .navbar-nav .nav-link,.footer{color:#9badbf}h2{font-weight:400;line-height:1.2}.main{margin:0}.bg-header{background-color:#263238}.carousel{margin-bottom:4rem}.carousel-caption{bottom:3rem;z-index:10}.carousel-item{background-color:#37474f;height:32rem}.carousel-item>img{height:32rem;left:0;min-width:100%;position:absolute;top:0}.carousel-item::after{background-color:rgba(0,0,0,.4);content:"";display:block;height:100%;position:absolute;width:100%}.footer{background-color:#37474f;margin:1rem 0 0;padding:1rem 0}.footer>.row{margin:0}.footer .social-icons a{color:#333;cursor:pointer;margin:0 1em}.footer .social-icons a i{color:#fff;-webkit-transition:color .3s;transition:color .3s}.footer .social-icons a:hover .fa-facebook{color:#3b5998}.footer .social-icons a:hover .fa-twitter{color:#31aae1}.footer .social-icons a:hover .fa-google-plus{color:#dc4e41}@media only screen and (max-width:414px){.carousel-caption h1{font-size:2rem}.carousel-caption p{font-size:1rem;line-height:1.4;margin-bottom:1rem}.carousel-item,.carousel-item>img{height:25rem}.footer .copyright-text{display:block!important;margin-bottom:1em;text-align:center}}

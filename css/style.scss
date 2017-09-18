@@ -1,0 +1,123 @@
+/**
+* The library
+**
+* @author    Diego Chi
+* @version   v1.0
+**/
+$mainfontfamily: "Libre Baskerville",sans-serif;
+$primarybgcolor: #263238;
+$secondarybgcolor: #37474f;
+$primarytxtcolor: #333;
+$secondarytxtcolor: #9badbf;
+$colorsocialicons: #fff;
+$fbcolor: #3b5998;
+$twcolor: #31aae1;
+$gpcolor: #dc4e41;
+$carouselbrightcolor: rgba(0,0,0,0.4);
+body
+{
+  color: $primarytxtcolor;
+  font-family: $mainfontfamily;
+  font-size: 16px;
+  padding-top: 3rem;
+}
+h2
+{
+  font-weight: normal;
+  line-height: 1.2;
+}
+.main { margin: 0; }
+.bg-header { background-color: $primarybgcolor; }
+.carousel { margin-bottom: 4rem; }
+.carousel-caption
+{
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item
+{
+  background-color: $secondarybgcolor;
+  height: 32rem;
+  >img
+  {
+    height: 32rem;
+    left: 0;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  &::after
+  {
+    background-color: $carouselbrightcolor;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+}
+.bg-header
+{
+  .navbar-nav
+  {
+    .nav-link { color: $secondarytxtcolor; }
+  }
+}
+.footer
+{
+  background-color: $secondarybgcolor;
+  color: $secondarytxtcolor;
+  margin: 1rem 0 0;
+  padding: 1rem 0;
+  >.row
+  {
+    margin: 0;
+  }
+  .social-icons
+  {
+    a
+    {
+      color: $primarytxtcolor;
+      cursor: pointer;
+      margin: 0 1em;
+      i
+      {
+        color: $colorsocialicons;
+        -webkit-transition: color 0.3s;
+        transition: color 0.3s;
+      }
+      &:hover
+      {
+        .fa-facebook { color: $fbcolor; }
+        .fa-twitter { color: $twcolor; }
+        .fa-google-plus { color: $gpcolor; }
+      }
+    }
+  }
+}
+@media only screen and (max-width:414px)
+{
+  .carousel-caption
+  {
+    h1 { font-size: 2rem; }
+    p {
+        font-size: 1rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+      }
+  }
+  .carousel-item
+  {
+    height: 25rem;
+     >img { height: 25rem; }
+  }
+  .footer
+  {
+    .copyright-text
+    {
+      display: block !important;
+      margin-bottom: 1em;
+      text-align: center;
+	}
+  }
+}
